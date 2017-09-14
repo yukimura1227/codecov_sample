@@ -87,4 +87,5 @@ group :test do
   gem 'poltergeist'
   gem 'database_cleaner'
   gem 'timecop'
+  gem 'codecov', require: false, group: :test
 end
