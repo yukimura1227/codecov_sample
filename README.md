@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/yukimura1227/codecov_sample.svg?branch=master)](https://travis-ci.org/yukimura1227/codecov_sample)
+[![codecov](https://codecov.io/gh/yukimura1227/codecov_sample/branch/master/graph/badge.svg)](https://codecov.io/gh/yukimura1227/codecov_sample)
 # README
 
 This README would normally document whatever steps are necessary to get the
