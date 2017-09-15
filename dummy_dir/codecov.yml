@@ -1,5 +1,3 @@
-fixes:
-  - "::dummy_dir/"
 coverage:
   notify:
     slack:
