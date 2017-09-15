@@ -1,5 +1,5 @@
 fixes:
-  - "::dummy_dir/"
+  - "dummy_dir/::"
 coverage:
   notify:
     slack:
