@@ -1,4 +1,4 @@
 language: ruby
-script:
+install:
   - cd dummy_dir/
-  - bundle exec rake build
+  - bundle install
