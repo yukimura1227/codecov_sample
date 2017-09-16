@@ -29,4 +29,7 @@ class Blog < ApplicationRecord
   def dummy8
     "#{title}?"
   end
+  def dummy9
+    "#{title}?"
+  end
 end
