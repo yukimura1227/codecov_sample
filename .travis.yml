@@ -1,5 +1,7 @@
 language: ruby
-cache: bundler
 install:
   - cd dummy_dir/
-  - bundle install
+  - bundle install --path vendor/bundle
+cache:
+  directories:
+    - dummy_dir/vendor/bundle
