@@ -7,4 +7,9 @@ RSpec.describe Blog, type: :model do
       expect(blog.title_with_embrace).to eq '[hoge]'
     end
   end
+  describe '#title_with_question' do
+    it 'returns #{title}?' do
+      expect(blog.title_with_question).to eq 'hoge?'
+    end
+  end
 end
