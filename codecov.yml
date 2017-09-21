@@ -4,5 +4,5 @@ coverage:
   notify:
     slack:
       default:
-        url: "secret:u/G2+5Z/KRZAn+LLKlI4CPoYPt7ULK+Cs2J/A3dq0XMSj2xmHFVGtCg8R99ZKvpHmeX+lLZfnZqIc5P0ZNqF0pEnShM9/EVyO45lc1WFZe2OUj9EBK+CHKMS2/sKSr3XDs7mB231wYVmbK25R3RgIqeAcVdsTbh6FwjsONC2HXI="
+        url: "secret:uVFh3vkGnyE192pC6CagtUcedrNYr45lmPBO/FnltCfTbWHVc4IxlmvMv/cnWZct4+oa2V/1E7jhH1qhcvN6tBpuTlT+3vloyOvyAQBE/if+YYhy6Pm2LelQN/oMKQDjnEoKGLpfncW18flH4W2YjQAtRcnxxkI1Kw+uxF03q4Y="
         threshold: 0.0%
