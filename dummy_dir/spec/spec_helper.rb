@@ -14,6 +14,10 @@
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 require 'simplecov'
+if ENV['CIRCLE_ARTIFACTS']
+  coverage_report_dir = File.join(ENV['CIRCLE_ARTIFACTS'], 'coverage')
+  SimpleCov.coverage_dir(coverage_report_dir)
+end
 SimpleCov.start
 
 require 'codecov'
