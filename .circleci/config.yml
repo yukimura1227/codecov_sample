@@ -29,16 +29,16 @@ jobs:
       - run:
           name: install dependencies
           command: |
-            bundle install --jobs=4 --retry=3 --path vendor/bundle
+            cd dummy_dir; bundle install --jobs=4 --retry=3 --path vendor/bundle
 
       - save_cache:
           paths:
-            - ./vendor/bundle
+            - ./dummy_dir/vendor/bundle
           key: v1-dependencies-{{ checksum "dummy_dir/Gemfile.lock" }}
         
       # Database setup
-      - run: bundle exec rake db:create
-      - run: bundle exec rake db:schema:load
+      - run: cd dummy_dir; bundle exec rake db:create
+      - run: cd dummy_dir; bundle exec rake db:schema:load
 
       # run tests!
       - run:
