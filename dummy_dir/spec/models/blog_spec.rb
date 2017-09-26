@@ -17,4 +17,9 @@ RSpec.describe Blog, type: :model do
       expect(blog.dummy1).to eq 'hoge?'
     end
   end
+  describe '#dummy2' do
+    it 'returns #{title}?' do
+      expect(blog.dummy2).to eq 'hoge?'
+    end
+  end
 end
